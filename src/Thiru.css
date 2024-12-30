@@ -1,0 +1,54 @@
+table{
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 254, 254, 0.882);
+}
+body{
+  margin: 0px;
+  background-color: black;
+}
+
+button{
+  margin-left: 70px;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  box-shadow: 0px 3px 5px;
+  border: none;
+  background-color: grey;
+}
+
+.Home{
+  margin-left: 700px;
+}
+
+footer{
+  margin-top: -5px;
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 0px;
+}
+
+.web-name{
+  margin-left: 30px;
+}
+
+.logo{
+  margin-left: 40px;
+}
+
+.image{
+  margin-top: -80px;
+  margin-left: 0px;
+  height: 550px;
+  width: 1536px;
+}
+
+button:hover,img:hover,h1:hover{
+  cursor: pointer;
+}
+
+button:active{
+  box-shadow: 0px 0px 0px;
+}
+
