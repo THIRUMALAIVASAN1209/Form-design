@@ -1,9 +1,15 @@
+import React from 'react'
+import Hen from './Hen';
+import { useContext,useState,createContext } from 'react';
+
+
 export const TriggerContext= createContext();
 
-function Thiru() {
+function Usecontxt() {
   let [change,setChange] = useState(true);
-return(
-  <>  
+
+  return (
+      
     <div>
     <button onClick={()=>{
       setChange(!change)
@@ -14,10 +20,8 @@ return(
       <Hen></Hen>
     </TriggerContext.Provider>
     </div>
-  </>
-)
-  
-   
+
+  )
 }
 
-export default Thiru
+export default Usecontxt

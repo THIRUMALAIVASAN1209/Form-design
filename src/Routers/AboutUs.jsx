@@ -1,10 +1,10 @@
 import React from 'react'
-import './Thiru.css'
+import './Routers.css'
 function AboutUs() {
   return (
     <div>
       <h1 style={{color:"blue",marginLeft:"45%"}}>AboutUs</h1>
-      <img class="image" src="https://img.lovepik.com/background/20211022/large/lovepik-glossy-color-background-image_401916671.jpg" alt="" />
+      <img class="image" src="https://c4.wallpaperflare.com/wallpaper/378/766/439/colorful-multi-color-abstract-wallpaper-preview.jpg" alt="" />
     </div>
   )
 }

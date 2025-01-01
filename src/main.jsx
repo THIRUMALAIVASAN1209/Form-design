@@ -1,11 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Thiru from './Thiru.jsx'
+import Usecontxt from './HooksTask/Usecontxt.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Thiru />
+    <Usecontxt />
     
   </StrictMode>,
 )
