@@ -16,7 +16,7 @@ function User() {
   },[])
 
   const deleteUser = (id) =>{
-    axios.delete(`http://localhost:3000/api/user/deleted/${id}`)
+    axios.delete(`https://backend-5p1o.onrender.com/api/user/deleted/${id}`)
     .then(result=>{
       console.log("Deleted Successfully")
       nav('/')
