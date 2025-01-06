@@ -9,7 +9,7 @@ function Userdata() {
   const [user,setUser] = useState([]);
 
   useEffect(()=>{
-    axios.get('http://localhost:3000/api/user/fetch')
+    axios.get('https://backend-5p1o.onrender.com/api/user/fetch')
     .then(result=>{
       setUser(result.data.users);
     })

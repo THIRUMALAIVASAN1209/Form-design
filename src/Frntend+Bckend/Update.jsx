@@ -15,7 +15,7 @@ function Update() {
 
   const updateUser = (e)=>{
     e.preventDefault();
-    axios.put(`http://localhost:3000/api/user/update/${id}`,{name,email,address})
+    axios.put(`https://backend-5p1o.onrender.com/api/user/update/${id}`,{name,email,address})
     .then(result=>{
       console.log("User Updated")
       nav('/')

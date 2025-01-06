@@ -11,7 +11,7 @@ function Create() {
 
   const submit = (e)=>{
     e.preventDefault();
-    axios.post('http://localhost:3000/api/user/create',{name,email,address})
+    axios.post('https://backend-5p1o.onrender.com/api/user/create',{name,email,address})
     .then(result => {
       nav('/');
     })
