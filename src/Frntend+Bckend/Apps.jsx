@@ -1,8 +1,8 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Userdata from './userdata.jsx';
-import Update from './update.jsx';
-import Create from './create.jsx';
+import User from './User.jsx';
+import Createuser from './Createuser.jsx';
+import Updateuser from './Updateuser.jsx';
 
 function Apps() {
   return (
@@ -13,9 +13,9 @@ function Apps() {
       </div>
       
     <Routes>
-            <Route path="/" element={<Userdata />}></Route>
-            <Route path="/create" element={<Create />}></Route>
-            <Route path="/update/:id" element={<Update />}></Route>
+            <Route path="/" element={<User />}></Route>
+            <Route path="/create" element={<Createuser />}></Route>
+            <Route path="/update/:id" element={<Updateuser />}></Route>
       </Routes>
     </Router>
     </>

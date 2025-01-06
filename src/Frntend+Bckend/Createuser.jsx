@@ -3,7 +3,7 @@ import './Create.css'
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
-function Create() {
+function Createuser() {
   const nav = useNavigate();
   const [name,setName] = useState("");
   const [email,setEmail] = useState("");
@@ -39,4 +39,4 @@ function Create() {
   )
 }
 
-export default Create
+export default Createuser

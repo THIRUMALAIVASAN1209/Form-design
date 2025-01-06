@@ -4,7 +4,7 @@ import './Userdata.css'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom';
 
-function Userdata() {
+function User() {
   const nav = useNavigate();
   const [user,setUser] = useState([]);
 
@@ -54,4 +54,4 @@ function Userdata() {
   )
 }
 
-export default Userdata
+export default User

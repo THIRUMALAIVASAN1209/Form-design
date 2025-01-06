@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
-function Update() {
+function Updateuser() {
   const nav = useNavigate();
   const {id} = useParams();
 
@@ -13,7 +13,7 @@ function Update() {
   const [email,setEmail] = useState("");
   const [address,setAddress] = useState("");
 
-  const updateUser = (e)=>{
+  const updateus = (e)=>{
     e.preventDefault();
     axios.put(`https://backend-5p1o.onrender.com/api/user/update/${id}`,{name,email,address})
     .then(result=>{
@@ -38,11 +38,11 @@ function Update() {
         <label>Address</label>
         <input type="text" value={address} onChange={(e)=>setAddress(e.target.value)}/>
         <br />
-        <button onClick={updateUser}>Update</button>
+        <button onClick={updateus}>Update</button>
       </form>
     </div>
     </center>
   )
 }
 
-export default Update
+export default Updateuser
