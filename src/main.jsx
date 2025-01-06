@@ -1,11 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Usecontxt from './HooksTask/Usecontxt.jsx'
+import Apps from './/Frntend+Bckend/Apps'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Usecontxt />
+    <Apps />
     
   </StrictMode>,
 )

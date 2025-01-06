@@ -1,0 +1,41 @@
+.update-btn{
+  background-color: gold;
+}
+
+.delete-btn{
+  background-color: red;
+}
+
+.create-btn{
+  background-color: green;
+}
+
+.update-btn,.delete-btn,.create-btn{
+  cursor: pointer;
+}
+
+table,th,tr,td,button{
+  border:1px solid black;
+  font-size: x-large;
+}
+
+table{
+  margin-top: 30px;
+  border-radius: 2px;
+  margin-left: 30%;
+}
+
+button{
+  border-radius: 2px;
+  transition: transform 0.15s;
+}
+button:hover{
+  transform: scale(1.025);
+}
+button:active{
+  transform: scale(0.9);
+}
+
+.create-btn{
+  margin-left: 43%;
+}
