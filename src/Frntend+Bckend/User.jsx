@@ -43,7 +43,7 @@ function User() {
               <td>{users.address}</td>
               <td>
                 <Link to={`/update/${users._id}`}><button className="update-btn">Update</button></Link>
-                <button onClick={(e)=>deleteUser(users._id)} className="delete-btn">Delete</button>
+                <button onClick={(e)=>deleteUser(users._id)} className="delete-btn">X</button>
               </td>
             </tr>
           ))
